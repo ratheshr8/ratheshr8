@@ -4,7 +4,7 @@
 
 I design systems that can show their work: retrieval with citations, bounded agent plans, and integration tools with stated limits.
 
-[reasoning-rag `v0.1.0`](https://github.com/ratheshr8/reasoning-rag/releases/tag/v0.1.0) · [ratheshworld.com](https://ratheshworld.com)
+[reasoning-rag `v0.1.0`](https://github.com/ratheshr8/reasoning-rag/releases/tag/v0.1.0) · [Siding `v1.0.0`](https://github.com/ratheshr8/android-auto-stream/releases/tag/v1.0.0) · [ratheshworld.com](https://ratheshworld.com)
 
 ## Start here
 
@@ -38,6 +38,7 @@ These are real public repos with a usable README. They are samples or tools, not
 
 | Repo | What it is | Look at |
 | --- | --- | --- |
+| [android-auto-stream](https://github.com/ratheshr8/android-auto-stream) | Siding, a Kotlin parked browser (Apache-2.0) for YouTube and streaming sites on a phone or Android Automotive OS. Playback pauses when the app pauses or the car reports driving restrictions. It does not relabel itself as a game or a navigation app | [Download 1.0.0](https://github.com/ratheshr8/android-auto-stream/releases/download/v1.0.0/Siding-1.0.0.apk). The README states which sites usually play in a WebView and which refuse it |
 | [jira-to-jira-migration-tool](https://github.com/ratheshr8/jira-to-jira-migration-tool) | Python CLI (Apache-2.0) that moves a Jira Cloud project — issues, comments, attachments, and best-effort filters/dashboards — with Postgres checkpoints so a run can resume | README section on what the public Jira API cannot preserve (authors, timestamps, full history, admin schemes) |
 | [MordenizeCodeConvert](https://github.com/ratheshr8/MordenizeCodeConvert) | React + TypeScript UI (Apache-2.0) for code conversion through Azure OpenAI. Keys stay in a local `.env` | `npm install` / `npm run dev` in the README. This is an app shell, not a measured migration benchmark |
 | [Angular-Web-Component-Sample](https://github.com/ratheshr8/Angular-Web-Component-Sample) | Angular Elements data grid (sort, page, row selection) packaged as one JS bundle for plain HTML and Java server-rendered pages | Build (`npm run build:wc`) and the HTML embed snippet in the README |
@@ -55,8 +56,9 @@ This does not change the headline. It is a sandbox tutorial, not a clinical prod
 - **Retrieval and evaluation** — tree-first vs lexical on one versioned dataset. [EVALUATION.md](https://github.com/ratheshr8/reasoning-rag/blob/master/docs/EVALUATION.md).
 - **Agent bounds** — query analysis, budgets, and stop conditions in the trace. [ADR 0006](https://github.com/ratheshr8/reasoning-rag/blob/master/docs/adr/0006-query-planning.md).
 - **Integration limits** — the Jira migrator documents which fields the Cloud API can and cannot recreate.
+- **Platform limits** — what a system WebView will play, and which parked categories Android Auto and Android Automotive accept. [Siding](https://github.com/ratheshr8/android-auto-stream).
 - **Governance** — abstention, citation checks, threat model, security reporting. [THREAT_MODEL.md](https://github.com/ratheshr8/reasoning-rag/blob/master/docs/THREAT_MODEL.md).
 
 ## How I work
 
-The profile leads with work a reviewer can open and judge. `reasoning-rag` is the architecture proof. The other linked repos are published tools, UI samples, or a labeled reference tutorial.
+The profile leads with work a reviewer can open and judge. `reasoning-rag` is the architecture proof. The other linked repos are published tools, UI samples, a parked Android browser, or a labeled reference tutorial.
